@@ -31,7 +31,7 @@ It can retrieve IP addresses, SSL details, WHOIS info, server type, page metadat
 ## 📦 Installation
 ```bash
 pip install grabio
-
+```
 Or clone the repository:
 
 git clone https://github.com/xr-xr4/grabio.git
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ---
 
 🛠️ Usage (Python)
-
+```python
 from grabio import Grabio
 
 # Initialize
@@ -59,16 +59,25 @@ print(full_info)
 
 # Save info as JSON
 g.show_info()
-
+```
 
 ---
 
 🖥️ CLI Usage
+# Full information
+```bash
+python cli.py --url example.com --info 
+```
 
-python cli.py --url example.com --info       # Full information
-python cli.py --url example.com --ip         # Only IP address
-python cli.py --url example.com --whois      # Only WHOIS info
+# Only IP address
+```bash
+python cli.py --url example.com --ip   
+```
 
+# Only WHOIS info
+```bash
+python cli.py --url example.com --whois      
+```
 
 ---
 
