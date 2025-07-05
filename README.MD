@@ -33,11 +33,15 @@ It can retrieve IP addresses, SSL details, WHOIS info, server type, page metadat
 pip install grabio
 ```
 Or clone the repository:
-
+```bash
 git clone https://github.com/xr-xr4/grabio.git
+```
+```bash
 cd grabio
+```
+```bash
 pip install -r requirements.txt
-
+```
 
 ---
 
@@ -82,7 +86,7 @@ python cli.py --url example.com --whois
 ---
 
 🗂️ Project Structure
-
+```text
 grabio/
 ├── grabio/
 │   ├── __init__.py
@@ -95,7 +99,7 @@ grabio/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 
 ---
 
@@ -113,9 +117,9 @@ python-whois
 
 
 Install all requirements:
-
+```bash
 pip install -r requirements.txt
-
+```
 
 ---
 
