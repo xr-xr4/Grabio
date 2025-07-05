@@ -32,7 +32,7 @@ It can retrieve IP addresses, SSL details, WHOIS info, server type, page metadat
 ## 📦 Installation
 ```bash
 pip install grabio
-
+```
 Or clone the repository:
 
 git clone https://github.com/xr-xr4/grabio.git
