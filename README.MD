@@ -68,17 +68,17 @@ g.show_info()
 ---
 
 🖥️ CLI Usage
-# Full information
+• Full information
 ```bash
 python cli.py --url example.com --info 
 ```
 
-# Only IP address
+• Only IP address
 ```bash
 python cli.py --url example.com --ip   
 ```
 
-# Only WHOIS info
+• Only WHOIS info
 ```bash
 python cli.py --url example.com --whois      
 ```
@@ -103,34 +103,34 @@ grabio/
 
 ---
 
-✅ Requirements
+# ✅ Requirements
 
-Python 3.6+
+• Python 3.6+
 
-requests
+• requests
 
-beautifulsoup4
+• beautifulsoup4
 
-user_agent
+• user_agent
 
-python-whois
+• python-whois
 
 
-Install all requirements:
+# Install all requirements:
 ```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-📄 License
-
+# 📄 License
+```text
 This project is licensed under the MIT License.
-
+```
 
 ---
 
-🙋 Author
+# 🙋 Author
 
 Ahmed Saoud
 
@@ -144,7 +144,7 @@ Telegram Channel: @xr_xr4_dev
 
 ---
 
-💬 Contributions
+# 💬 Contributions
 
 Contributions are welcome!
 Feel free to fork the repo and submit pull requests 🚀.
